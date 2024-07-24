@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --font1: "Dancing Script", cursive;
+    --font2: "Outfit", sans-serif;
+    --font3: "Kalam", cursive;
+    --color1: rgb(240, 239, 243);
+    --color2: rgb(120, 120, 179);
+    --color3: rgb(47, 43, 50);
+}
+
+body {
+    background-color: rgb(194, 183, 197);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 50vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    padding: 5px 8px;
+    font-family: var(--font2);
+    background-color: rgb(177, 207, 240);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: rgb(172, 14, 14);
+    color: white;
+}
+
+.form-input {
+    padding: 5px 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 13px;
+    font-family: var(--font2);
+}

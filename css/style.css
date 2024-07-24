@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background:   */
+}
+
+.navigation {
+    height: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-left {
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+}
+
+.nav-left span {
+    font-family: var(--font1);
+    font-weight: 700;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-family: var(--font2);
+}
+
+.nav-left ul li {
+    font-size: 17px;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a:hover {
+    color: rgb(172, 14, 14);
+    font-size: 23px;
+}
+
+.content {
+    height: fit-content;
+    background: var(--color2);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    font-family: var(--font3);
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.content-left h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.content-right {
+    padding: 10px 10px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right img {
+    height: 250px;
+    border: 2px solid rgb(235, 231, 231);
+    border-radius: 1000px;
+}
+
+.home-articles {
+    background: var(--color1);
+    height: 900px;
+}
+
+.home-articles h2 {
+    color: var(--color3);
+    font-size: 20px;
+    font-family: var(--font2);
+    padding: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 13vw;
+    height: 28vw;
+    padding: 20px;
+    margin-left: 10px;
+    font-family: var(--font2);
+    font-size: 13px;
+    justify-content: center;
+    border: 2px solid rgb(148, 141, 141);
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+
+.article h3 {
+    align-self: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.article a img {
+    height: 16vw;
+    width: 13vw;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-content span {
+    color: rgb(211, 15, 15);
+    padding: 2px;
+}
+.article:hover{
+    transform: scale(1.1);
+}
+.footer {
+    height: 50px;
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: 8px;
+}
