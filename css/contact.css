@@ -2,16 +2,16 @@
     background: var(--color1);
     margin-top: 20px;
     padding: 20px;
-    height: 34vw;
+    height: fit-content;
     width: 80vw;
     margin-top: 2.4vw;
     border: solid white;
+    border-bottom: 0px;
 
 }
 .contact-content h2{
-    font-size: 20px;
+    font-size: 3vw;
     font-family: var(--font1);
-    font-size: 30px;
     padding: 20px;
     padding-top: 0px;
     top: 0;
@@ -19,4 +19,5 @@
 }
 .contact-form{
     padding: 10px;
+    height: fit-content;
 }

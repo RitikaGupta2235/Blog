@@ -4,7 +4,7 @@
 }
 
 .navigation {
-    height: 4vw;
+    /* height: 4vw; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,8 @@
 }
 .nav-left span {
     font-family: var(--font1);
-    font-weight: 700;    
+    font-weight: 700; 
+    font-size: 3vw;   
 }
 .nav-left a:hover{
     transform: scale(1.2);
@@ -39,7 +40,7 @@
 }
 
 .nav-left ul li {
-    font-size: 17px;
+    font-size: 1.5vw;
     list-style: none;
     margin-left: 30px;
 }
@@ -52,7 +53,7 @@
 
 .nav-left ul li a:hover {
     color: rgb(172, 14, 14);
-    font-size: 23px;
+    font-size: 2.3vw;
 }
 
 .content {
@@ -61,6 +62,7 @@
     display: flex;
     justify-content: space-between;
     border: solid white;
+    border-bottom: 0px;
 }
 
 .content-left {
@@ -72,14 +74,14 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 15px;
+    font-size: 1.3vw;
     margin-left: 20px;
     text-align: justify;
 }
 
 .content-left h1 {
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
     font-weight: 1000;
     font-family: var(--font1);
 }
@@ -100,16 +102,15 @@
 
 .home-articles {
     background: var(--color1);
-    height: 900px;
+    height: fit-content;
     border: solid white;
 }
 
 .home-articles h2 {
     color: var(--color3);
-    font-size: 20px;
+    font-size: 3vw;
     font-family: var(--font1);
-    font-size: 30px;
-    padding: 20px;
+    padding: 2vw;
     margin-bottom: -15px;
     text-align: center;
     
@@ -127,14 +128,15 @@
     display: flex;
     flex-direction: column;
     width: 15vw;
-    height: 28vw;
+    height: fit-content;
     padding: 20px;
     margin-left: 10px;
     font-family: var(--font2);
-    font-size: 13px;
+    font-size: 1.5vw;
     justify-content: center;
     border: 2px solid rgb(162, 157, 167);
-    margin-top: 20px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     transition: transform 0.2s;
     text-align: justify;
     background: rgb(240, 239, 243);
@@ -142,7 +144,7 @@
 
 .article h3 {
     align-self: center;
-    font-size: 25px;
+    font-size: 2.5vw;
     font-family: var(--font1);
     padding: 5px;
 }
@@ -173,6 +175,7 @@
     justify-content: center;
     color: white;
     align-items: center;
-    font-size: 8px;
+    font-size: 0.8vw;
     border: solid white;
+    border-top: 0px;
 }

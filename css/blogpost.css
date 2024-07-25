@@ -8,11 +8,11 @@
 
 }
 .post-img img{
-    width: 100%;
+    width: 90vw;
     height: 60vw;
 }
 .post-articles{
-    height: 500px;
+    height: fit-content;
 }
 .post-content{
     background: var(--color2);
@@ -22,24 +22,29 @@
 .post-content h1{
     font-family: var(--font1);
     text-align: center;
-    font-size: 50px;
+    font-size: 5vw;
     padding: 20px;
     border: solid white;
+    /* width: 100%; */
+    border-top: 0px;
 }
 .post-content p{
     font-family: var(--font3);
-    font-size: 15px;
+    font-size: 1.5vw;
     padding: 10px 90px;
     padding-bottom: 50px;
     text-align: justify;
     border: solid white;
+    border-bottom: 0px;
 }
 .author-info{
     font-family: var(--font2);
-    font-size: 15px;
+    font-size: 1.5vw;
     font-weight: 100;
     padding: 10px 90px;
     background: rgb(197, 103, 137);
     color: white;
     border: solid white;
+    border-bottom: 0px;
+    border-top: 0px;
 }
