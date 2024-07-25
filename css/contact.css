@@ -1,0 +1,22 @@
+.contact-content{
+    background: var(--color1);
+    margin-top: 20px;
+    padding: 20px;
+    height: 34vw;
+    width: 80vw;
+    margin-top: 2.4vw;
+    border: solid white;
+
+}
+.contact-content h2{
+    font-size: 20px;
+    font-family: var(--font1);
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 0px;
+    top: 0;
+    margin-bottom: -15px;
+}
+.contact-form{
+    padding: 10px;
+}
